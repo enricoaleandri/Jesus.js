@@ -1,0 +1,43 @@
+{
+  "name": "jesus.js",
+  "version": "0.0.2",
+  "description": "Not sure what will it do yet. But it just sounds like a really powerful library no matter what it does.",
+  "main": "dev/src/Jesus.js",
+  "scripts": {
+    "test": "mocha --ui bdd --reporter spec dev/test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enricoaleandri/Jesus.js.git"
+  },
+  "keywords": [
+    "Jesus",
+    "library"
+  ],
+  "devDependencies": {
+    "jsdom": "^9.8.3",
+    "mocha": "~1.21.4",
+    "testling": "^1.7.0",
+    "unit.js": "^2.0.0"
+  },
+  "testling": {
+    "harness": "mocha-bdd",
+    "files": "dev/test/**/*.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/5..latest",
+      "ipad/5..latest",
+      "android-browser/4..latest"
+    ]
+  },
+  "author": "Edan Kwan < info@edankwan.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/enricoaleandri/Jesus.js/issues"
+  },
+  "homepage": "https://github.com/edankwan/Jesus.js#readme"
+}
