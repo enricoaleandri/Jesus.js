@@ -47,6 +47,10 @@
         //Create a zombie process ... I have to think about it!
     };
 
+    Jesus.waterToWine = function() {
+        document.body.innerHTML = document.body.innerHTML.replace(new RegExp('water', 'gi'), 'wine')
+    };
+
     Jesus.multiplyTheBreadNFishes = function(BreadOrFish){
         var multipliedBreadNFishes = new Array();
         if(Object.prototype.toString.call( Bread )  === '[object Array]'){
